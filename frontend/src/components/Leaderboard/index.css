@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  border: 1px solid rgba(222, 218, 218, 0.466);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(155, 155, 156, 0.1);
+  margin-bottom: 20px;
+  column-gap: 60px;
+}
+
+.community_logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 20%;
+}
+
+.logo_image {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.header_leaderboard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid rgba(222, 218, 218, 0.466);
+  justify-content: center;
+  column-gap: 90px;
+}
+
+.flex_gap {
+  flex: 4;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: rgb(105, 105, 105);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(105, 105, 105);
+}
